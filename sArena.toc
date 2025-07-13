@@ -1,0 +1,11 @@
+## Interface: 40401
+## Title: sArena
+## Notes: Enhanced Arena Frames
+## Author: Stako, edits by Aeded, Xaryu & Mageiden
+## Version: 3.6.0
+## OptionalDeps: ElvUI
+## X-Category: PvP/Arena
+## X-Credits: Tekkub, Starship, Kouri, Kollektiv, Lyn, haste, evl, Zork, jturel, wardz, A3st (delayy)
+## SavedVariables: sArena3DB
+
+sArena.xml

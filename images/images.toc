@@ -1,0 +1,2 @@
+## Title: images
+## Notes: Images required for the addon
