@@ -563,7 +563,7 @@ function sArenaMixin:Test()
 
     local currTime = GetTime()
 
-    for i = 1, 5 do
+    for i = 1, 3 do
         if (i == 1) then
             local frame = self["arena" .. i]
             UnregisterUnitWatch(frame, false)
@@ -600,7 +600,7 @@ function sArenaMixin:Test()
             end
             frame.PowerBar:SetStatusBarColor(0, 0, 1, 1)
 
-            for n = 1, 5 do
+            for n = 1, 3 do
                 local drFrame = frame[self.drCategories[n]]
 
                 drFrame.Icon:SetTexture(136071)
@@ -660,7 +660,7 @@ function sArenaMixin:Test()
             end
             frame.PowerBar:SetStatusBarColor(0, 0, 1, 1)
 
-            for n = 1, 5 do
+            for n = 1, 3 do
                 local drFrame = frame[self.drCategories[n]]
 
                 drFrame.Icon:SetTexture(136175)
@@ -720,7 +720,7 @@ function sArenaMixin:Test()
             end
             frame.PowerBar:SetStatusBarColor(0, 0, 1, 1)
 
-            for n = 1, 5 do
+            for n = 1, 3 do
                 local drFrame = frame[self.drCategories[n]]
 
                 drFrame.Icon:SetTexture(132298)
@@ -780,7 +780,7 @@ function sArenaMixin:Test()
             end
             frame.PowerBar:SetStatusBarColor(0, 0, 1, 1)
 
-            for n = 1, 5 do
+            for n = 1, 3 do
                 local drFrame = frame[self.drCategories[n]]
 
                 drFrame.Icon:SetTexture(132298)
@@ -840,7 +840,7 @@ function sArenaMixin:Test()
             end
             frame.PowerBar:SetStatusBarColor(170 / 255, 10 / 255, 10 / 255)
 
-            for n = 1, 5 do
+            for n = 1, 3 do
                 local drFrame = frame[self.drCategories[n]]
 
                 drFrame.Icon:SetTexture(132298)
